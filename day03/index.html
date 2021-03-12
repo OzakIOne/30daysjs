@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic blur</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input
+          type="range"
+          name="spacing"
+          min="0"
+          max="30"
+          value="0"
+          data-sizing="px"
+        />
+        <label for="blur">Blur:</label>
+        <input
+          type="range"
+          name="blur"
+          min="0"
+          max="30"
+          value="0"
+          data-sizing="px"
+        />
+        <label for="color">Color</label>
+        <input type="color" name="color" value="#404040" />
+      </div>
+      <img src="http://placekitten.com/1280/720" alt="cat" />
+    </div>
+  </body>
+</html>

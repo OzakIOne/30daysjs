@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  height: 100%;
+}
+
+:root {
+  --color: #505050;
+  --spacing: 0px;
+  --blur: 0px;
+}
+
+img {
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  background-color: var(--color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.controls {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 50%;
+  padding: 10px;
+}
+
+label {
+  color: #808080;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
