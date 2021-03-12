@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  background-color: #202020;
+  color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
