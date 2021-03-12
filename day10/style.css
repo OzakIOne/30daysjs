@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #202020;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inbox {
+  max-width: 400px;
+  background: #404040;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #101010;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  background: #101010;
+  color: #505050;
+  text-decoration: line-through;
+}
+
+input[type='checkbox'] {
+  width: 32px;
+  height: 32px;
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 30px;
+  transition: background 0.2s;
+  flex: 1;
+  font-size: 20px;
+  border-left: 1px solid #101010;
+}
