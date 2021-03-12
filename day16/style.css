@@ -1,0 +1,20 @@
+html,
+body {
+  color: #505050;
+  background-color: #202020;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-shadow: #aaa 0px 0px 10px;
+  font-size: 100px;
+}
