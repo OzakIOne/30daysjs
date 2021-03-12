@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  background-color: #202020;
+}
+
+p {
+  color: #eee;
+  transition: all;
+  transition-duration: 300ms;
+}
