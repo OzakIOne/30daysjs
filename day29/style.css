@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #202020;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.display__time-left {
+  font-weight: 100;
+  font-size: 20rem;
+  margin: 0;
+  color: #aaa;
+}
+
+.timer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.timer__controls {
+  display: flex;
+}
+
+.timer__controls > * {
+  flex: 1;
+}
+
+.timer__controls form {
+  flex: 1;
+  display: flex;
+}
+
+.timer__controls input {
+  flex: 1;
+  border: 0;
+  padding: 2rem;
+}
+
+.timer__button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: #101010;
+  padding: 1rem;
+}
+
+.timer__button:hover,
+.timer__button:focus {
+  background: rgba(0, 0, 0, 0.2);
+  outline: 0;
+}
+
+.display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display__end-time {
+  font-size: 4rem;
+  color: #aaa;
+}
