@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  background-color: #202020;
+  height: 100%;
+}
+
+.wrap-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+.wrap-secret {
+  background-color: #808080;
+}
+
+.secret {
+  display: block;
+  transition: opacity 0.2s;
+  padding: 10px;
+  opacity: 0;
+}
+
+.secret:hover {
+  opacity: 1;
+}
